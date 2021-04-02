@@ -1,0 +1,125 @@
+/* Слайдер */
+.slick-slider {
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+//========================================================
+
+.slider {
+    min-width: 0;
+    position: relative;
+    padding: 0 17px;
+}
+
+.slider .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slider .slick-track {
+    display: flex;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: calc(50% - 10px);
+    z-index: 15;
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-height: 90px;
+}
+
+.slider .slick-dots li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    @media (max-width: 768px) {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.slider .slick-dots li.slick-active button {
+    background: #ffffff;
+}
+
+.slick .slick-dots li button {
+}
+
+//====================================================
